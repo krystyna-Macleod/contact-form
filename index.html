@@ -15,18 +15,18 @@
     <div class="max-length">
       <h1>Send us a sweet little note</h1>
 
-      <form class="push-0">
+      <form class="push-0" method="POST" action="https://formspress.io/macl0312@algonquinlive.com">
         <div class="push">
           <label for="name">Name</name>
-          <input id="name">
+          <input id="name" name="name">
         </div>
         <div class="push">
           <label for="email"></label>
-          <input id="email" type="email" placeholder="me@me.com">
+          <input id="email" type="email" placeholder="me@me.com" name="name">
         </div>
         <div class="push">
           <label for=""></label>
-          <select id="subject">
+          <select id="subject" name="name">
             <option>Get a quote!</option>
             <option>General question</option>
             <option>Just to talk</option>
@@ -34,7 +34,7 @@
         </div>
         <div class="push">
           <label for="details">What's up?</label>
-          <textarea id="details"></textarea>
+          <textarea id="details" name="message"></textarea>
         </div>
         <div class="btn btn-light">
           <button type="submit">Send message</button>
